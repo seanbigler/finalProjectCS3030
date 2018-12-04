@@ -11,7 +11,8 @@ open(address) {|f|
 }
 b = BarcodeConverter.new()
 zip_arr.each do |zip|
-    p 'Converting zipcode %s'%zip
+    puts 'Converting zipcode %s'%zip
     # Call module to convert zipcode
     b.print_barcode(zip)
+    puts ''
 end

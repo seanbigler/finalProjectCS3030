@@ -13,10 +13,10 @@ class BarcodeConverter
         total = 0
 
         if zipcode.length != 5
-            p "Error: Zip code is not 5 digits"
+            puts "Error: Zip code is not 5 digits"
             return 1
         elsif not zipcode.is_int
-            p "Error: Zip code is not all numberic"
+            puts "Error: Zip code is not all numberic"
             return 1
         end
 
@@ -34,7 +34,7 @@ class BarcodeConverter
         end
         barcode << print_digit(check_digit)
         barcode << "|"
-        p barcode
+        puts barcode
         return 0
     end
 
