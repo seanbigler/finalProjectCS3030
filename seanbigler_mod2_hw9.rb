@@ -1,6 +1,16 @@
 require 'open-uri'
 require_relative 'seanbigler_mod1_hw9'
 
+=begin
+**************************************
+Sean Bigler
+Zipcode Tester Program
+
+How to run program:
+    ruby seanbigler_mod2_hw9.rb
+**************************************
+=end
+
 zip_arr = []
 # Get zipcodes from web file
 address = 'http://icarus.cs.weber.edu/~hvalle/cs3030/data/barCodeData.txt'

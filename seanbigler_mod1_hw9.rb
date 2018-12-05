@@ -1,5 +1,15 @@
 require_relative 'my_string'
+=begin
+**************************************
+Sean Bigler
+Zipcode Logic class
 
+How to run program:
+    * Do not run this file, run the mod2 file *
+
+    ruby seanbigler_mod2_hw9.rb
+**************************************
+=end
 class BarcodeConverter
     def print_barcode(zipcode)
         # Validates input and parses the numbers.
